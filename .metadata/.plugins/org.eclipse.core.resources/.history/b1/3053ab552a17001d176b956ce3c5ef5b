@@ -1,0 +1,8 @@
+package calculadora4;
+
+public class Divisao {
+	public double calcularDivisao(double num1, double num2) {
+		double divisao = num1 / num2;
+		return divisao;
+	}
+}

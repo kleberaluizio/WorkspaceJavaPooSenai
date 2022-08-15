@@ -1,0 +1,48 @@
+package calculadorav1;
+
+import javax.swing.JOptionPane;
+
+public class Operacoes {
+
+		private double num1, num2;
+		
+		public double getNum1() {
+			return num1;
+		}
+		public void setNum1(double num1) {
+			this.num1 = num1;
+		}
+		public double getNum2() {
+			return num2;
+		}
+		public void setNum2(double num2) {
+			this.num2 = num2;
+		}
+		
+		public double CalcularSoma (double num1, double num2) {
+			double soma = num1 + num2; 
+			return soma;
+		}
+		public double CalcularSubtracao (double num1, double num2) {
+			double sub = num1 - num2; 
+			return sub;
+		}
+		public double CalcularDivisao (double num1, double num2) {
+			double divisao = num1 / num2; 
+			return divisao;
+		}
+		public double CalcularMultiplicacao (double num1, double num2) {
+			double multiplicacao = num1 * num2; 
+			return multiplicacao;
+		}
+		
+		public int SolicitaOperacao () {
+			int operacao = Integer.parseInt(JOptionPane.showInputDialog("Escolha a operação desejada: \n"
+					+ "1 - Soma \n"
+					+ "2 - Subtração \n"
+					+ "3 - Multiplicação \n"
+					+ "4 - Divisão \n"));
+			return operacao;
+		}
+		
+}

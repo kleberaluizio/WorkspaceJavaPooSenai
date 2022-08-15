@@ -1,0 +1,17 @@
+package calculadorav1;
+
+import javax.swing.JOptionPane;
+
+public class CalculadoraV1 {
+
+	public static void main(String[] args) {
+
+		Operacoes op1 = new Operacoes();
+		
+		op1.setNum1(Double.parseDouble(JOptionPane.showInputDialog("Informe o p")));
+		op1.setNum2(0);
+		
+		
+	}
+
+}

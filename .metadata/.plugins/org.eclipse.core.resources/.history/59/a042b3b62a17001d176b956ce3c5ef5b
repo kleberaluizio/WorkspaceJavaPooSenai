@@ -1,0 +1,11 @@
+package calculadora4;
+
+public class Multiplicacao {
+	
+	private double num1, num2;
+
+	public double calcularMultiplicacao(double num1, double num2) {
+		double multiplicacao = num1 * num2;
+		return multiplicacao;
+	}
+}

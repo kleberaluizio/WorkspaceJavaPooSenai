@@ -1,0 +1,17 @@
+package calculadora6;
+
+public abstract class Operacoes implements IOperacao{
+
+	protected double num1, num2;
+	
+	
+	public double getNum1() {
+		return num1;
+	}
+
+	public double getNum2() {
+		return num2;
+	}
+
+
+}

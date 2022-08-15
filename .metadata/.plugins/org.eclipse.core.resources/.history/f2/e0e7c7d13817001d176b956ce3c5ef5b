@@ -1,0 +1,5 @@
+package calculadora5;
+
+public interface IOperacao {
+
+}
